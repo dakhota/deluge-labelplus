@@ -33,18 +33,18 @@
 
 from setuptools import setup, find_packages
 
-__plugin_name__ = "LabelPlus"
-__author__ = "Ratanak Lun"
-__author_email__ = "ratanakvlun@gmail.com"
-__version__ = "0.3.1.0"
-__url__ = "http://github.com/ratanakvlun"
+__plugin_name__ = "Tagging"
+__author__ = "Dakhota"
+__author_email__ = "dakhota@gmail.com"
+__version__ = "0.0.0.1"
+__url__ = "http://github.com/dakhota"
 __license__ = "GPLv3"
-__description__ = "Assign labels to torrents"
+__description__ = "Assign tags to torrents"
 __long_description__ = """
-Assign labels to torrents
+Assign tags to torrents
 
-Based on Label 0.2
-by Martijn Voncken"""
+Based on LabelPlus 0.3.1.0
+by Ratanak Lun"""
 __pkg_data__ = {__plugin_name__.lower():["template/*", "data/*"]}
 
 setup(
